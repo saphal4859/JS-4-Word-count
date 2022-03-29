@@ -1,5 +1,5 @@
 let print = function(msg) {
-    alert(msg)
+
     document.getElementById("output").innerHTML = msg;
 }
 document.getElementById('btn').onclick = () => {
